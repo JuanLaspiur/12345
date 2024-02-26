@@ -36,13 +36,13 @@ const Layout = ({ ...rest }) => {
   const location = useLocation();
   const currentPath = location.pathname;
   const navigate = useNavigate();
-
+/*
   useEffect(() => {
     if (!isLogged) {
       navigate('/login');
     }
   }, [isLogged, location]);
-
+*/
   return (
     <ThemeProvider theme={theme}>
       <Box

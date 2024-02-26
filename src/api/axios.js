@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const backendApi = axios.create({
- baseURL: 'https://coraqr-back2.onrender.com/api/',
+//  baseURL: import.meta.env.VITE_API_URL, MODIFICADOPORJUANCITO
+baseURL:'https://coraqr-back2.onrender.com/api/',
 });
 
 backendApi.interceptors.request.use((config) => {
