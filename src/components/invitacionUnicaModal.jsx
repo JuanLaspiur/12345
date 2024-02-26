@@ -11,7 +11,7 @@ import {
 } from '@mui/material';
 import { createInvitation } from '../api/axios';
 
-const InvitacionUnicaModal = ({ open, setOpen, id, loading, setLoading, onClose }) => {
+const InvitacionUnicaModal = ({ open, setOpen, id, loading, setLoading }) => { //onClose
   const [name, setName] = useState('');
   const [lastname, setLastname] = useState('');
   const [email, setEmail] = useState('');
