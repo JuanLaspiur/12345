@@ -17,7 +17,7 @@ import {
   MenuItem,
 } from '@mui/material';
 import { getInvitation, putInvitation } from '../../api/axios';
-import { SessionContext } from '../../App';
+import { SessionContext } from '../../Index';
 
 const ListaParticipantes = () => {
   const navigate = useNavigate();

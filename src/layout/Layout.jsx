@@ -7,7 +7,7 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import { getPageTitle } from '../router/titles';
-import { SessionContext } from '../App';
+import { SessionContext } from '../Index';
 import { useContext, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
