@@ -1,8 +1,12 @@
 import axios from 'axios';
+import { config as dotenvConfig } from 'dotenv';
+
+dotenvConfig();
 
 const backendApi = axios.create({
- baseURL: import.meta.env.VITE_API_URL,
+  baseURL: 'https://coraqr-back2.onrender.com/api/',
 });
+
 
 backendApi.interceptors.request.use((config) => {
   config.headers = {
