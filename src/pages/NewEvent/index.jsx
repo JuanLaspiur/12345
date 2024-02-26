@@ -9,7 +9,7 @@ import {
   CircularProgress,
 } from '@mui/material';
 import { postEvent, createInvitationByExcel, sendInvitation } from '../../api/axios';
-import { SessionContext } from '../../Index';
+import { SessionContext } from '../../App';
 import { Await, useNavigate } from 'react-router-dom';
 
 const NewEvent = () => {

@@ -1,6 +1,6 @@
 import { useState, useEffect, useContext } from 'react';
 import { Button, Grid, Typography, Box, Container } from '@mui/material';
-import { SessionContext } from '../../Index';
+import { SessionContext } from '../../App';
 
 export default function PermanentDrawerLeft() {
   const { userInfo } = useContext(SessionContext);

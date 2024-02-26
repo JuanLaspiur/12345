@@ -12,7 +12,7 @@ import {
 } from '@mui/material';
 import { useSnackbar } from 'notistack';
 import { login } from '../../api/axios';
-import { SessionContext } from '../../Index';
+import { SessionContext } from '../../App';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { CircularProgress } from '@mui/material';
 import CorafamLogo from '../../assets/CorafamLogo.jpg';

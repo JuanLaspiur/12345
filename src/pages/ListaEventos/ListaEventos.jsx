@@ -17,7 +17,7 @@ import {
 import AddParticipantModal from '../../components/newParticipantsModal';
 import { getEvents, deleteEvent } from '../../api/axios';
 import { useNavigate } from 'react-router-dom';
-import { SessionContext } from '../../Index';
+import { SessionContext } from '../../App';
 import EditEventModal from '../../components/editEventModal';
 
 const ListaEventos = () => {

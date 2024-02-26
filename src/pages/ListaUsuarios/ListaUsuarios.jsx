@@ -18,7 +18,7 @@ import {
 } from '@mui/material';
 import NewUserModal from '../../components/newUserModal';
 import { getUsers } from '../../api/axios';
-import { SessionContext } from '../../Index';
+import { SessionContext } from '../../App';
 
 const ListaUsuarios = () => {
   const { loading, setLoading } = useContext(SessionContext);
