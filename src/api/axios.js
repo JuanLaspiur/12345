@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const backendApi = axios.create({
- baseURL: "https://coraqr-back2.onrender.com/api/",
+ baseURL: 'https://coraqr-back2.onrender.com/api/',
 });
 
 backendApi.interceptors.request.use((config) => {
